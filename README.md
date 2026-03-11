@@ -1,0 +1,13 @@
+[index.html](https://github.com/user-attachments/files/25920261/index.html)
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=İ, initial-scale=1.0">
+    <title>Zeynep AK'ın Sayfaları</title>
+</head>
+<body style="background-color: rgb(246, 188, 246);">
+    <h2>Zeynep AK'ın sayfalarına Hoşgeldiniz...</h2>
+    <a href="parfumler.html">2. Ödev Parfümler Sitesine Git</a>
+</body>
+</html>
