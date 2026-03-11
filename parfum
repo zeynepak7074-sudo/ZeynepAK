@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume World</title>
+</head>
+<body >
+    <h2>Burası 2. Ödev Sayfası </h2>
+    <hr>
+    <br>
+    <h2>Menü</h2>
+   
+    <a href="index.html">İlk Sayfaya Dönmek İçin Tıklayın</a>  <br>
+    <a href="tavsiye.html">Tavsiye Parfümler</a> <br>
+    <a href="nota.html">Nota Bilgileri</a> <br>
+    <a href="tarih.html">Parfümün Tarihçesi</a>
+    
+
+    <hr>
+    <h2>Zeynep's Perfume World</h2>
+<p>En güzel kokuları keşfet</p>
+ <img src="resimler/parfüm.webp" alt="Ana Resim" widht="600">
+<br>
+ <h2>Hoş Geldiniz...</h2>
+    <p>Parfümler sadece güzel kokular değildir; aynı zamanda insanların duygularını,
+         tarzını ve kişiliğini yansıtan özel bir ifade biçimidir. Bir koku bazen bir
+          anıyı hatırlatır, bazen de insanın kendini daha özgüvenli ve özel hissetmesini 
+          sağlar. Bu nedenle parfüm seçimi birçok insan için oldukça kişisel ve anlamlı 
+          bir deneyimdir.
+Bu web sitesi, parfüm dünyasını tanımak isteyenler ve farklı kokular hakkında bilgi
+ edinmek isteyenler için hazırlanmıştır. Burada parfümlerin nasıl oluştuğunu, hangi koku 
+ notalarından meydana geldiğini ve en sevilen parfümler hakkında temel bilgileri bulabilirsiniz.</p>
+ <br>
+    <h2> Parfüm Nedir? </h2>
+<p> Parfümler insanların tarzını ve kişiliğini yansıtan özel kokulardır. 
+    Her parfüm farklı notalardan oluşur ve gün boyunca farklı kokular ortaya çıkarır.</p>    
+    <br>
+   
+<h2>Bu Sitede Neler Bulacaksınız?</h2>
+<p>Bu sitede parfümler hakkında temel bilgiler, popüler kokular ve parfüm dünyasıyla
+     ilgili ilginç detaylar yer almaktadır. Ayrıca farklı parfüm türlerini tanıyabilir 
+     ve hangi kokuların hangi kategorilere ait olduğunu öğrenebilirsiniz.
+Amacımız, parfüm dünyasını daha yakından tanımanıza yardımcı olmak ve
+ kokuların büyülü dünyasını keşfetmenizi sağlamaktır.</p>
+ <br>
+ <h2>Parfüm Dünyası</h2>
+ <p>Parfüm dünyası oldukça zengin ve çeşitlidir. Çiçeksi, odunsu, oriental veya ferah kokular gibi birçok 
+    farklı kategori bulunmaktadır. Her parfüm, farklı notaların birleşmesiyle ortaya çıkar ve zamanla kokusu değişebilir.
+     İlk sıkıldığında hissedilen koku ile birkaç saat sonra hissedilen koku aynı olmayabilir.Parfümler genellikle üç farklı nota 
+     yapısından oluşur: üst nota, orta nota ve alt nota. Üst nota parfüm sıkıldığı anda hissedilen ilk kokudur. Orta nota parfümün
+      karakterini oluşturan ana kokudur. Alt nota ise parfümün kalıcılığını sağlayan ve uzun süre hissedilen kokudur.
+ </p>
+<br>
+<h2>Neden Parfüm Kullanırız?</h2>
+<p>Parfüm kullanmak insanların kendini daha iyi hissetmesini sağlayan küçük ama etkili bir detaydır. 
+    Güzel bir koku, bir kişinin bulunduğu ortamda daha akılda kalıcı olmasına yardımcı olabilir. Aynı zamanda parfüm,
+     kişinin ruh halini de olumlu şekilde etkileyebilir.Birçok insan için parfüm günlük yaşamın vazgeçilmez bir parçasıdır.
+      Özel günlerde, iş hayatında veya günlük hayatta kullanılan farklı parfümler, kişinin tarzını ve enerjisini yansıtır.
+       Bu nedenle doğru parfümü seçmek oldukça önemlidir.</p>
+
+
+</body>
+</html>
