@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeynep Parfüm | Ana Sayfa</title>
+    <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body>
+
+   <nav class="navbar">
+        <div class="logo">
+            <h1>ZEYNEP PERFUME</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="pages/parfumler.html">Ürünlerimiz</a></li>
+            <li><a href="pages/nota.html">Koku Kültürü</a></li> 
+            <li><a href="pages/tavsiye.html">Koku Testi</a></li>
+            <li><a href="pages/sepet.html">Sepetim</a></li>
+            <li><a href="pages/iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+  
+    <header class="hero">
+        <h2>Kendi İmza Kokunu Keşfet</h2>
+        <p>Zarafetin ve lüksün eşsiz parfümlerle buluştuğu nokta.</p>
+        <a href="pages/parfumler.html" class="btn-explore">Koleksiyonu Gör</a>
+    </header>
+
+    <main>
+        <h2 class="section-title">Haftanın En Çok Tercih Edilenleri</h2>
+        <div class="products-grid">
+            
+            <div class="product-card">
+                <img src="img/bomb.jpg" alt="Flowerbomb">
+                <h3>Flowerbomb Intense</h3>
+                <p class="price">6.750 TL</p>
+                <button class="btn-card" onclick="sepeteEkle('Flowerbomb Intense', 6750)">Sepete Ekle</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/hypnotic.jpg" alt="Hypnotic Poison">
+                <h3>Hypnotic Poison</h3>
+                <p class="price">6.900 TL</p>
+                <button class="btn-card" onclick="sepeteEkle('Hypnotic Poison', 6900)">Sepete Ekle</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/libre.jpg" alt="Libre YSL">
+                <h3>Libre Intense</h3>
+                <p class="price">6.999 TL</p>
+                <button class="btn-card" onclick="sepeteEkle('Libre Intense', 6999)">Sepete Ekle</button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Zeynep Perfume. Tüm Hakları Saklıdır. | Web Tasarımı ve İnternet Programlama Ödevi</p>
+    </footer>
+
+    <script src="myscript.js/myscript.js"></script>
+</body>
+</html>
