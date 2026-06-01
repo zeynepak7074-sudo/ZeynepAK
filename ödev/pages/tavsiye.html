@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeynep Parfüm | Koku Testi</title>
+    <link rel="stylesheet" href="../style.css/style.css">
+</head>
+<body>
+
+   <nav class="navbar">
+        <div class="logo">
+            <h1>ZEYNEP PERFUME WORLD</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Ana Sayfa</a></li>
+            <li><a href="parfumler.html">Ürünlerimiz</a></li>
+            <li><a href="nota.html">Koku Kültürü</a></li>
+            <li><a href="tavsiye.html">Koku Testi</a></li>
+            <li><a href="sepet.html">Sepetim</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="section-title">Sana En Uygun Parfümü Bulalım ✨</h2>
+        
+        <div class="form-container" style="max-width: 600px;">
+            <p style="text-align: center; margin-bottom: 20px; color: #888;">Aşağıdaki soruları yanıtla, senin imza kokunu söyleyelim!</p>
+            
+            <form id="quizForm" onsubmit="kokuTestiHesapla(event)">
+                <div class="form-group">
+                    <label style="font-weight: bold;">1. Hangi tarz kokulardan daha çok hoşlanırsın?</label>
+                    <select id="soru1" style="margin-top: 5px;">
+                        <option value="tatli">Şekerli, Vanilyalı ve Sıcak</option>
+                        <option value="taze">Çiçeksi, Hafif ve Ferah</option>
+                        <option value="agir">Baharatlı, Oryantal ve Dikkat Çekici</option>
+                    </select>
+                </div>
+
+                <div class="form-group" style="margin-top: 20px;">
+                    <label style="font-weight: bold;">2. Parfümünü en çok hangi mevsimde yoğun kullanırsın?</label>
+                    <select id="soru2" style="margin-top: 5px;">
+                        <option value="tatli">Kış / Sonbahar</option>
+                        <option value="taze">İlkbahar / Yaz</option>
+                        <option value="agir">Gece Davetleri / Her Mevsim</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-card" style="width: 100%; margin-top: 20px;">Sonucu Gör</button>
+            </form>
+
+            <div id="quizSonuc" style="margin-top: 30px; text-align: center; display: none; padding: 15px; background: #fff5f5; border-radius: 8px; border: 1px dashed #d4a373;">
+                <h3 style="color: #d4a373; margin-bottom: 10px;">İşte Senin Kokun!</h3>
+                <p id="onerilenParfum" style="font-weight: bold; font-size: 18px; color: #333;"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Zeynep Perfume. Tüm Hakları Saklıdır. | Web Tasarımı Ödevi</p>
+    </footer>
+
+    <script src="../myscript.js/myscript.js"></script>
+</body>
+</html>

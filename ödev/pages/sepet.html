@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeynep Parfüm | Sepetim</title>
+    <link rel="stylesheet" href="../style.css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1>ZEYNEP PERFUME WORLD</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Ana Sayfa</a></li>
+            <li><a href="parfumler.html">Ürünlerimiz</a></li>
+            <li><a href="nota.html">Koku Kültürü</a></li>
+            <li><a href="tavsiye.html">Koku Testi</a></li>
+            <li><a href="sepet.html">Sepetim</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+    <main style="min-height: 60vh; padding: 20px 5%;">
+        <h2 class="section-title">Alışveriş Sepetiniz</h2>
+        
+        <div class="form-container" style="max-width: 600px;">
+            <div id="sepetIcerik">
+                <p style="text-align: center; color: #888;">Sepetiniz şu anda boş. 🌸</p>
+            </div>
+            
+            <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+            
+            <div style="display: flex; justify-content: space-between; font-weight: bold; font-size: 18px;">
+                <span>Toplam Tutar:</span>
+                <span id="toplamFiyat">0 TL</span>
+            </div>
+            
+            <button class="btn-card" onclick="sepetiTemizle()" style="margin-top: 20px; background-color: #c0392b; width: 100%;">Sepeti Temizle</button>
+        
+<button class="btn-explore" onclick="satinAl()" style="margin-top: 15px; width: 100%; border: none; cursor: pointer; display: block; text-align: center;">Alışverişi Tamamla (Satın Al)</button> </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Zeynep Perfume. Tüm Hakları Saklıdır. | Web Tasarımı Ödevi</p>
+    </footer>
+
+    <script src="../myscript.js/myscript.js"></script>
+    <script>
+        window.onload = sepetiGoster;
+    </script>
+</body>
+</html>
